@@ -1,4 +1,4 @@
-package com.bravedroid.favoritesdishes.ui.dashboard
+package com.bravedroid.favoritesdishes.views.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.bravedroid.favoritesdishes.R
+import com.bravedroid.favoritesdishes.viewmodels.DashboardViewModel
 
 class DashboardFragment : Fragment() {
 
