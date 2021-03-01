@@ -34,8 +34,7 @@ class SplashActivity : AppCompatActivity() {
         splashBinding.tvAppName.animation = splashScreenAnimation
 
         splashScreenAnimation.setAnimationListener(object : Animation.AnimationListener {
-            override fun onAnimationStart(p0: Animation?) {
-            }
+            override fun onAnimationStart(p0: Animation?) {}
 
             override fun onAnimationEnd(p0: Animation?) {
                 Handler(Looper.getMainLooper()).postDelayed({
@@ -44,12 +43,7 @@ class SplashActivity : AppCompatActivity() {
                 }, 1000)
             }
 
-            override fun onAnimationRepeat(p0: Animation?) {
-            }
-
-        }
-
-        )
-
+            override fun onAnimationRepeat(p0: Animation?) {}
+        })
     }
 }
